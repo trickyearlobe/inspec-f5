@@ -1,0 +1,14 @@
+name: inspec-f5
+title: Inspec resource pack for F5 BigIP
+maintainer: Richard Nixon <richard.nixon@btinternet.com>
+copyright: Richard Nixon
+copyright_email: richard.nixon@btinternet.com
+license: Apache-2.0
+summary: Inspec resource pack for F5 BigIP
+version: 0.1.0
+
+# This resource pack requires the train-f5 backend
+supports:
+  platform: f5
+gem_dependencies:
+  - name: "train-f5"
